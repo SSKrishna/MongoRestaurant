@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Mongo.Services.ProductAPI.Models;
 
 namespace Mongo.Services.ProductAPI.DbContexts
 {
@@ -8,6 +9,6 @@ namespace Mongo.Services.ProductAPI.DbContexts
         {
 
         }
-
+        public DbSet<Product> Products { get; set; }
     }
 }
