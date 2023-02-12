@@ -1,4 +1,4 @@
-﻿namespace Mongo.Services.ProductAPI.Models.Dto
+﻿namespace Mongo.Web.Models
 {
     public class ResponseDto
     {
