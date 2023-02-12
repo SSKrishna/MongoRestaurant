@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LDWgtc//cJCNJXevW1i3xpAPFMFkpkrV8m94+k090lXH/b2VALS6yNZ3asGtTpByPpRo/DFq6GoRoLi2+HOikg==",
+  "dgSpecHash": "LYqMl676LwtdnyhDnwHJ+zYR7tHG8rfesRUt3xji9h9KG9UPcvbqjmb9/GNn1UuZS0GzgKXuLXbvcfZr6lz1pg==",
   "success": true,
   "projectFilePath": "C:\\Users\\guntu\\Source\\Repos\\MangoRestaurant\\MongoRestaurant\\Mongo.Web\\Mongo.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\guntu\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
