@@ -1,3 +1,9 @@
+using Microsoft.AspNetCore.Hosting;
+using Mongo.Web;
+using Mongo.Web.Services;
+using Mongo.Web.Services.IServices;
+using System.Reflection.PortableExecutable;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +19,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -22,6 +29,11 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+//Configuring ProductServices and HTTP client
+builder.Services.AddHttpClient<IProductService, IProductService>();
+SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
+builder.Services.AddScoped<IProductService,ProductService>();
