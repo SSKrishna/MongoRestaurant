@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JlwVfgX6GduSq3pC18QG5Xau+nlnP4Hf9b9ZvePeVU8=",
+  "Hash": "WvhXrpwKF7+PoFtUt3/jUTPxloWUHb+PKkWfh5+13xs=",
   "Source": "Mongo.Web",
   "BasePath": "_content/Mongo.Web",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\guntu\\Source\\Repos\\MangoRestaurant\\MongoRestaurant\\Mongo.Web\\wwwroot\\images\\mango.png",
+      "SourceId": "Mongo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\guntu\\Source\\Repos\\MangoRestaurant\\MongoRestaurant\\Mongo.Web\\wwwroot\\",
+      "BasePath": "_content/Mongo.Web",
+      "RelativePath": "images/mango.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mango.png"
+    },
+    {
+      "Identity": "C:\\Users\\guntu\\Source\\Repos\\MangoRestaurant\\MongoRestaurant\\Mongo.Web\\wwwroot\\images\\order.PNG",
+      "SourceId": "Mongo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\guntu\\Source\\Repos\\MangoRestaurant\\MongoRestaurant\\Mongo.Web\\wwwroot\\",
+      "BasePath": "_content/Mongo.Web",
+      "RelativePath": "images/order.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.PNG"
     },
     {
       "Identity": "C:\\Users\\guntu\\Source\\Repos\\MangoRestaurant\\MongoRestaurant\\Mongo.Web\\wwwroot\\js\\site.js",
