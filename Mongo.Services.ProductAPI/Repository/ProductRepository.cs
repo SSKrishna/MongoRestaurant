@@ -58,7 +58,6 @@ namespace Mongo.Services.ProductAPI.Repository
         {
             List<Product> productList = await _db.Products.ToListAsync();
             return _mapper.Map<List<ProductDto>>(productList);
-
         }
     }
 }
