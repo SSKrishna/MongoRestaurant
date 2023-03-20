@@ -88,3 +88,4 @@ C:\Users\guntu\Source\Repos\MangoRestaurant\MongoRestaurant\Mongo.Services.Produ
 C:\Users\guntu\Source\Repos\MangoRestaurant\MongoRestaurant\Mongo.Services.ProductAPI\obj\Debug\net6.0\Mongo.Services.ProductAPI.pdb
 C:\Users\guntu\Source\Repos\MangoRestaurant\MongoRestaurant\Mongo.Services.ProductAPI\obj\Debug\net6.0\Mongo.Services.ProductAPI.genruntimeconfig.cache
 C:\Users\guntu\Source\Repos\MangoRestaurant\MongoRestaurant\Mongo.Services.ProductAPI\obj\Debug\net6.0\ref\Mongo.Services.ProductAPI.dll
+C:\Users\guntu\Source\Repos\MangoRestaurant\MongoRestaurant\Mongo.Services.ProductAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P6EhkFB5Z5fvoFKrkXF8vaAdyVkkxSvGPcE+GqiF9UeMzvraUuK+rZhlO/S7yYsIK5jEFio6VaSnjA9kjof74Q==",
+  "dgSpecHash": "7WI/VL2U/ku7qOIKVBnZw6xxAstQ0n8wnNCGHXM35HjXR2wIOYpdWwfhduPpJa/M46UTWMIlbIfcl/OAeyH46g==",
   "success": true,
   "projectFilePath": "C:\\Users\\guntu\\Source\\Repos\\MangoRestaurant\\MongoRestaurant\\Mongo.Services.ProductAPI\\Mongo.Services.ProductAPI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\guntu\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\guntu\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\guntu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\guntu\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.15\\microsoft.aspnetcore.authentication.jwtbearer.6.0.15.nupkg.sha512",
     "C:\\Users\\guntu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\guntu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\guntu\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
