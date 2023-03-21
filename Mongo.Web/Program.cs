@@ -6,6 +6,29 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthentication(options =>
+                        {
+                            options.DefaultScheme = "Cookies";
+                            options.DefaultChallengeScheme = "oidc";
+                        })
+    .AddCookie("Cookies",c => c.ExpireTimeSpan = TimeSpan.FromMinutes(10))
+    .AddOpenIdConnect("oidc",options =>
+    {
+        options.Authority = builder.Configuration["ServiceUrls:IdentityAPI"];
+        options.GetClaimsFromUserInfoEndpoint = true;
+        options.ClientId = "mango";
+        options.ClientSecret = "secret";
+        options.ResponseType = "code";
+
+        options.TokenValidationParameters.NameClaimType = "name";
+        options.TokenValidationParameters.RoleClaimType= "role";
+
+        options.Scope.Add("mango");
+
+        options.SaveTokens = true;
+    });
+
+
 builder.Services.AddRazorPages()
     .AddRazorRuntimeCompilation();
 
@@ -29,7 +52,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
